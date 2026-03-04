@@ -14,15 +14,10 @@
         .card { background: #252525; border-radius: 15px; padding: 20px; transition: 0.3s; border-bottom: 6px solid #444; }
         .card:hover { transform: translateY(-8px); background: #333; }
         
-        /* Ninja Colors */
-        .kai { border-color: #ff4b2b; } .jay { border-color: #00d4ff; } .cole { border-color: #ffa500; }
-        .zane { border-color: #f8fafc; } .lloyd { border-color: #32cd32; } .nya { border-color: #0077be; }
-        .wu { border-color: #d4af37; } .pixal { border-color: #a0a0a0; }
-        
-        /* Villain Colors */
-        .garmadon { border-color: #4b0082; } .morro { border-color: #40e0d0; } .overlord { border-color: #8b0000; }
-        .pythor { border-color: #ffffff; } .chen { border-color: #800080; } .kalmaar { border-color: #00ced1; } 
-        .ras { border-color: #daa520; } .harumi { border-color: #ff69b4; }
+        /* Section Colors */
+        .ninja-card { border-color: #d4af37; }
+        .villain-card { border-color: #8b0000; }
+        .season-card { border-color: #ffffff; }
 
         .btn { display: inline-block; margin-top: 15px; padding: 10px 20px; background: #d4af37; color: black; text-decoration: none; border-radius: 5px; font-weight: bold; }
         .btn:hover { background: #fff; }
@@ -34,26 +29,33 @@
 
 <h2>SELECT YOUR NINJA</h2>
 <div class="grid">
-    <div class="card kai"><h3>Kai</h3><p>Fire</p><a href="kai.html" class="btn">View Profile</a></div>
-    <div class="card jay"><h3>Jay</h3><p>Lightning</p><a href="jay.html" class="btn">View Profile</a></div>
-    <div class="card cole"><h3>Cole</h3><p>Earth</p><a href="cole.html" class="btn">View Profile</a></div>
-    <div class="card zane"><h3>Zane</h3><p>Ice</p><a href="zane.html" class="btn">View Profile</a></div>
-    <div class="card lloyd"><h3>Lloyd</h3><p>Energy</p><a href="lloyd.html" class="btn">View Profile</a></div>
-    <div class="card nya"><h3>Nya</h3><p>Water</p><a href="nya.html" class="btn">View Profile</a></div>
-    <div class="card wu"><h3>Master Wu</h3><p>Creation</p><a href="wu.html" class="btn">View Profile</a></div>
-    <div class="card pixal"><h3>P.I.X.A.L.</h3><p>Nindroid</p><a href="pixal.html" class="btn">View Profile</a></div>
+    <div class="card ninja-card"><h3>Kai</h3><a href="kai.html" class="btn">View Profile</a></div>
+    <div class="card ninja-card"><h3>Jay</h3><a href="jay.html" class="btn">View Profile</a></div>
+    <div class="card ninja-card"><h3>Cole</h3><a href="cole.html" class="btn">View Profile</a></div>
+    <div class="card ninja-card"><h3>Zane</h3><a href="zane.html" class="btn">View Profile</a></div>
+    <div class="card ninja-card"><h3>Lloyd</h3><a href="lloyd.html" class="btn">View Profile</a></div>
+    <div class="card ninja-card"><h3>Nya</h3><a href="nya.html" class="btn">View Profile</a></div>
+    <div class="card ninja-card"><h3>Master Wu</h3><a href="wu.html" class="btn">View Profile</a></div>
+    <div class="card ninja-card"><h3>P.I.X.A.L.</h3><a href="pixal.html" class="btn">View Profile</a></div>
 </div>
 
 <h2>SELECT A VILLAIN</h2>
 <div class="grid">
-    <div class="card garmadon"><h3>Garmadon</h3><p>Destruction</p><a href="garmadon.html" class="btn">View Profile</a></div>
-    <div class="card morro"><h3>Morro</h3><p>Wind</p><a href="morro.html" class="btn">View Profile</a></div>
-    <div class="card overlord"><h3>Overlord</h3><p>Darkness</p><a href="overlord.html" class="btn">View Profile</a></div>
-    <div class="card pythor"><h3>Pythor</h3><p>Anacondrai</p><a href="pythor.html" class="btn">View Profile</a></div>
-    <div class="card chen"><h3>Master Chen</h3><p>Anacondrai Cult</p><a href="chen.html" class="btn">View Profile</a></div>
-    <div class="card kalmaar"><h3>Kalmaar</h3><p>Merlopia</p><a href="kalmaar.html" class="btn">View Profile</a></div>
-    <div class="card ras"><h3>Lord Ras</h3><p>Wolf Mask</p><a href="ras.html" class="btn">View Profile</a></div>
-    <div class="card harumi"><h3>Harumi</h3><p>Quiet One</p><a href="harumi.html" class="btn">View Profile</a></div>
+    <div class="card villain-card"><h3>Garmadon</h3><a href="garmadon.html" class="btn">View Profile</a></div>
+    <div class="card villain-card"><h3>Morro</h3><a href="morro.html" class="btn">View Profile</a></div>
+    <div class="card villain-card"><h3>Overlord</h3><a href="overlord.html" class="btn">View Profile</a></div>
+    <div class="card villain-card"><h3>Pythor</h3><a href="pythor.html" class="btn">View Profile</a></div>
+    <div class="card villain-card"><h3>Harumi</h3><a href="harumi.html" class="btn">View Profile</a></div>
+</div>
+
+<h2>SEASONS</h2>
+<div class="grid">
+    <div class="card season-card"><h3>Pilot Episodes</h3><p>Way of the Ninja</p><a href="season0.html" class="btn">View Info</a></div>
+    <div class="card season-card"><h3>Season 1</h3><p>Rise of the Snakes</p><a href="season1.html" class="btn">View Info</a></div>
+    <div class="card season-card"><h3>Season 2</h3><p>Legacy of the Green Ninja</p><a href="season2.html" class="btn">View Info</a></div>
+    <div class="card season-card"><h3>Season 3</h3><p>Rebooted</p><a href="season3.html" class="btn">View Info</a></div>
+    <div class="card season-card"><h3>Season 4</h3><p>Tournament of Elements</p><a href="season4.html" class="btn">View Info</a></div>
+    <div class="card season-card"><h3>Season 5</h3><p>Possession</p><a href="season5.html" class="btn">View Info</a></div>
 </div>
 
 <footer style="padding: 40px; color: #555;">&copy; 2026 Ninjago Info Hub</footer>
